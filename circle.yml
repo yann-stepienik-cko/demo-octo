@@ -9,6 +9,7 @@ dependencies:
   override:
     # Update NPM
     - npm install -g npm
+    - npm install
 
 deployment:
   production:
