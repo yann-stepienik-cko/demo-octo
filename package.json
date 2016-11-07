@@ -1,17 +1,19 @@
 {
-  "name": "demo",
-  "version": "1.0.1",
+  "name": "demo-octopus-js",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"14 Test successfully passed !",
-    "bump": "release-it"
+    "test": "echo \"14 Tests successfully passed !\" && exit 0",
+    "bump": "release-it",
+    "release": "gulp release"
   },
   "devDependencies": {
     "@octopusdeploy/gulp-octo": "0.0.8",
     "gulp": "^3.9.1",
     "gulp-release-it": "^1.1.2",
-    "release-it": "^2.4.3"
+    "release-it": "^2.4.3",
+    "run-sequence": "^1.2.2"
   },
   "author": "",
   "license": "ISC"

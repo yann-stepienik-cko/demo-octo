@@ -1,0 +1,17 @@
+machine:
+  node:
+    version: 5
+
+dependencies:
+  cache_directories:
+    - "node_modules"
+
+  override:
+    # Update NPM
+    - npm install -g npm
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - npm run release

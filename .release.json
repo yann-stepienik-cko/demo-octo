@@ -4,7 +4,7 @@
     "verbose": true,
     "force": false,
     "pkgFiles": ["package.json"],
-    "increment": false,
+    "increment": "patch",
     "prereleaseId": "rc",
     "prereleaseName": "rc",
     "commitMessage": "[skip ci] Release %s",
