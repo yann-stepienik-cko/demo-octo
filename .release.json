@@ -1,0 +1,43 @@
+{
+    "non-interactive": false,
+    "dry-run": false,
+    "verbose": true,
+    "force": false,
+    "pkgFiles": ["package.json"],
+    "increment": false,
+    "prereleaseId": "rc",
+    "prereleaseName": "rc",
+    "commitMessage": "[skip ci] Release %s",
+    "tagName": "%s",
+    "tagAnnotation": "%s",
+    "buildCommand": "",
+    "changelogCommand": 0,
+    "requireCleanWorkingDir": false,
+    "src": {
+        "pushRepo": null,
+        "beforeStartCommand": false,
+        "beforeStageCommand": false,
+        "afterReleaseCommand": false
+    },
+    "dist": {
+        "repo": false,
+        "stageDir": ".stage",
+        "baseDir": "bin",
+        "files": ["**/*"],
+        "pkgFiles": null,
+        "beforeStageCommand": false,
+        "afterReleaseCommand": false
+    },
+    "npm": {
+        "publish": false,
+        "publishPath": ".",
+        "tag": "latest",
+        "private": false,
+        "forcePublishSourceRepo": false
+    },
+    "github": {
+        "release": false,
+        "releaseName": "%s",
+        "tokenRef": "GITHUB_TOKEN"
+    }
+}
